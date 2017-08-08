@@ -2,7 +2,7 @@ package jp.co.rakus.git_sample_yahiro;
 
 /**
  * Hello world!
- *
+ *@author yahiro
  */
 public class App 
 {
