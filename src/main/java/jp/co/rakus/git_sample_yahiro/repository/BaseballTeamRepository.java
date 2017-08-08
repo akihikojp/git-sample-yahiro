@@ -16,7 +16,7 @@ import jp.co.rakus.git_sample_yahiro.domain.BaseballTeam;
  *
  */
 @Repository
-public class BaseballRepository {
+public class BaseballTeamRepository {
 
 	/**
 	 * SQLアクセス
