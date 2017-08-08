@@ -11,7 +11,7 @@ import jp.co.rakus.git_sample_yahiro.domain.BaseballTeam;
 import jp.co.rakus.git_sample_yahiro.service.BaseballTeamService;
 
 @Controller
-@RequestMapping("")
+@RequestMapping("5km")
 public class BaseballTeamController {
 
 	@Autowired
