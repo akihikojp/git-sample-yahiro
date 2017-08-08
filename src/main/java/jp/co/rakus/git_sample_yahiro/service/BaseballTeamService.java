@@ -29,4 +29,14 @@ public class BaseballTeamService {
 		return repository.findAll();
 
 	}
+	
+	/**
+	 * チームのid情報検索
+	 * @return
+	 */
+	public BaseballTeam load(Integer id){
+		return repository.load(id);
+
+	}
 }
+
