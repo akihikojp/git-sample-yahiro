@@ -11,6 +11,10 @@ public class Car {
 	private int speed;
 	/**飛ぶ*/
 	private int flyAway;
+	/**色*/
+	private String color;
+	/**車のナンバー*/
+	private String carNumber;
 	
 	/**
 	 *走る 
@@ -42,6 +46,22 @@ public class Car {
 
 	public void setSpeed(int speed) {
 		this.speed = speed;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public String getCarNumber() {
+		return carNumber;
+	}
+
+	public void setCarNumber(String carNumber) {
+		this.carNumber = carNumber;
 	}
 
 }
