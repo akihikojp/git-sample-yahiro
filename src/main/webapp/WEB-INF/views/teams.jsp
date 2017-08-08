@@ -10,11 +10,11 @@
 </head>
 <h3>プロ野球<br>セントラル・リーグ一覧</h3>
 
-<form:form action="/5km/execute" method="post">
+<form action="/5km/execute" method="post">
 <c:forEach var="teams" items="${teams}">
-<a href="/index?id=<c:out value="${teams.id}"/>">
+<a href="/5km/execute?id=<c:out value="${teams.id}"/>">
 <c:out value="${teams.teamName}"/></a><br>
 </c:forEach>
-</form:form>
+</form>
 </body>
 </html>

@@ -16,8 +16,10 @@
 発足:<br>
 <c:out value="${baseball.inauguration}"/><br>
 歴史:<br>
-<c:out value="${baseball.history}"/><br>
-<input type="submit" value="戻る">
+<pre><c:out value="${baseball.history}"/></pre>
 
+<form action="/5km/index" method="post">
+<input type="submit" value="戻る">
+</form>
 </body>
 </html>

@@ -33,7 +33,7 @@ public class BaseballTeamController {
 	public String execute(Integer id, Model model){
 		BaseballTeam baseballTeam = service.load(id);
 		model.addAttribute("baseball",baseballTeam);
-		return "list";
+		return "details";
 		
 	}
 
